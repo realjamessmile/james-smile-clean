@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <title>Box of Rain</title>
+    <link rel="icon" type="image/x-icon" href="assets/headshotjsmile.ico">
+    <meta name="description" content="james smile">
+    <meta name="keywords" content="james smile cybersecurity">
+    <script src="clam-cursor.js"></script> <!-- clam cursor click animation -->
+    <script src="box-of-rain.js"></script>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K2YM879546"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-K2YM879546');
+</script>
+
+<header>
+    <a href="index.html" class="logo"><img src="assets/headshotjsmile.JPG"></a>
+    <span class="name">"Box of Rain"</span>
+</header>
+
+<body class="box-of-rain-page">
+    <div style="padding:30px;">
+        Here it is.."Box of Rain" by the Grateful Dead. ~~~ Sit back with a cold <a href="assets/clamato.jpg" style="color:white;">clamato</a>, watch Windows 2 boot up, 
+        and think of better times....
+    </div>
+    <div class="container" style="flex-direction: column;">
+        <button id="play-button">
+            BOOT UP
+        </button>
+        <br>
+        <div style="display:none; font-size: 1.5vw;" id="slider">
+            mellow Jerry
+            <img src="assets/icons/win95icons/All/Volume Wave.ico">
+            <input type="range" class="slider" id="volume-slider" value="50">
+            <img src="assets/icons/win95icons/All/Volume.ico">
+            loud Jerry
+        </div>
+    </div>
+    
+
+    <audio src="assets/box-of-rain.mp3" id="box-audio"></audio>
+    <br>
+    <br>
+    <img class="cool-main-image-big" src="assets/windows-2-boot.png" alt="A beautiful sight" id="win2boot" style="display:none;">
+</body>
+</html>
